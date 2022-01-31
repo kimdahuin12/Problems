@@ -8,7 +8,7 @@ void BFS(int** matrix, int len, int start);
 
 int main() {
 
-	//정점 번호가 작은 것을 먼저 방문.
+	//정점 번호가 작은 것을 먼저 방문
 
 	int N; //정점의 개수
 	int M; //간선의 개수
