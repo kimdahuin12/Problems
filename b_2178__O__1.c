@@ -34,7 +34,7 @@ int main() {
 		strcpy(Matrix[i], temp);
 	}
 
-	//BFS 후 역추적하며 횟수 셈
+	//BFS 후 역추적하며 횟수 센다
 
 	Pos q_data[10001];
 	int q_front = 0, q_rear = 0;//queue
