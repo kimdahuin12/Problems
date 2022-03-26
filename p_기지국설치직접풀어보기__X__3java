@@ -1,0 +1,18 @@
+class Solution {
+    public int solution(int n, int[] stations, int w) {
+        int answer = 0;
+        int position = 1;
+        int stationCnt = 0;
+        while(position <= n){
+            if(stationCnt < stations.length&&position >= stations[stationCnt]-w){
+                position = (stations[stationCnt]+w+1);
+                stationCnt++;
+            }else{
+                answer++;
+                position+=(w*2+1);
+            }
+        }
+        
+        return answer;
+    }
+}
