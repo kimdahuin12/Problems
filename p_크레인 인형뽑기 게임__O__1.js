@@ -14,7 +14,7 @@ function solution(board, moves) {
        var doll = tmpBoard[moves[i]-1].pop();
         if(doll !== undefined){
             if(basket.length===0||basket[basket.length-1]!==doll){ basket.push(doll); }
-			else{ basket.pop(); answer+=2; }
+	    else{ basket.pop(); answer+=2; }
         }
     }
     
